@@ -1,0 +1,5 @@
+
+cursor-party-0.c.ookie.click {
+	respond "test"
+	#reverse_proxy 127.0.0.1:1999
+}
