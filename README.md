@@ -4,16 +4,16 @@ other repos:
 - https://github.com/kbdspam/cursor-party-server
 - https://github.com/kbdspam/partykit
 
-things to install on servers:
+packages:
 ```bash
 sudo apt install build-essential mosh ufw byobu vnstat curl wget htop lsof strace
 # build-essential for debian because partykit node packages needed make...
-
-# - setup swap if necessary...
-# - allow ssh mosh 80 443 in ufw
 ```
 
-https://nodejs.org/en/download/package-manager
+other things to do on servers:
+- setup swap if necessary...
+- allow ssh mosh 80 443 in ufw
+- https://nodejs.org/en/download/package-manager
 
 how to deploy:
 - run the `sync.sh` script...
