@@ -1,5 +1,12 @@
 
 cursor-party-?x?.c.ookie.click {
-	respond "test"
-	#reverse_proxy 127.0.0.1:1999
+	handle /party/rock2 {
+		reverse_proxy 127.0.0.1:2000
+	}
+	handle /party/rock {
+		reverse_proxy 127.0.0.1:2000
+	}
+	handle {
+		reverse_proxy 127.0.0.1:1999
+	}
 }
