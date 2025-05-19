@@ -1,1 +1,0 @@
-wsl -e bash /mnt/f/code/c.ookie.click-cursor-party/cursor-party-helper/sync.sh
